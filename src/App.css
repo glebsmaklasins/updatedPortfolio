@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
     display: flex;
@@ -6,127 +7,13 @@
 }
 .main {
 display: flex;
-    background: url("img/bg_3.jpeg") ;
+flex-direction: row;
+    background: url("img/bg_3.jpeg")  center;
     width: 80%;
     margin: 40px auto;
    
 }
-.pictureBlock{
-  padding-left: 50px;
-}
-.mainPic{
-  height: 800px;
-  
-}
-.nav{
-  display: flex;
-  flex-direction: column-reverse;
-  width: 100px;
-}
-.nav a{
-
-}
-.nav p {
-  transform: rotate(-90deg);
-  padding-top: 20px;
-  font-size: 25px;
-}
-.nav a:active {
-  text-decoration: none;
-   color: #E5A328
-}
-.nav a:hover {
-  text-decoration: none;
-    color:#8C8F96;
-}
-.nav a:link {
-  text-decoration: none;
-    color:#8C8F96;
-}
-.nav a:visited {
-  text-decoration: none;
-    color:#8C8F96;
-}
-.description{
-  width: 100%;
-}
-.description h1{
-  color: #fdfeff;
-  font-size: 50px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.description h4{
-  color: #53565d;
-  font-size: 30px;
-  margin-top: 0;
-}
-.description h5{
-  color: #989BA2;
-  margin: 0 auto;
-  font-size: 20px;
-  width: 30%;
-}
-.signature{
-  height: 150px;
-  width: 400px;
-  padding-bottom: 50px;
-}
-
-/* foooteer section  */
 
 
 
 
-footer {
-  display: flex;
-  justify-content: flex-end;
-}
-.btnsBlock {
-  display: flex;
-  flex-direction: column;
-}
-.btnsBlock button{
-  background-color: #E1AB34;
-  color: white;
-  width: 50px;
-  height: 50px;
-  border:none;
-}
-.socialLinks{
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding-left: 20%;
-
-
-}
-.socialLinks i{
-  padding-left: 20px;
- font-size: 30px;
-}
-
-.socialLinks a:link {
-  text-decoration: none;
-  color: #E5A328
-}
-.socialLinks a:hover {
-  text-decoration: none;
-  color: #E5A328
-}
-.socialLinks a:visited {
-  text-decoration: none;
-  color: #E5A328
-}
-.socialLinks a:active {
-  text-decoration: none;
-  color: #E5A328
-}
-
-
-.descriptionBlock{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}

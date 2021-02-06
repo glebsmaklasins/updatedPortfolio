@@ -1,0 +1,11 @@
+.signatureBlock {
+  display: flex;
+
+  width: 100%;
+}
+
+.signature {
+  height: 10px;
+  width: 100%;
+  padding-bottom: 50px;
+}

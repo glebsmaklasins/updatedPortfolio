@@ -1,11 +1,12 @@
 import React from 'react'
 import {Link } from "@reach/router";
+import "./Navigation.css"
 
 export default function Navigation() {
   return (
        <nav className="nav">
         <Link to ="/aboutme">
-          <p>about me</p>
+          <p>about</p>
         </Link>
         <Link to ="/resume">
           <p>resume</p>
@@ -14,7 +15,7 @@ export default function Navigation() {
           <p>projects</p>
         </Link>
         <Link to ="/contactme">
-          <p>contact me</p>
+          <p>contact</p>
         </Link>
      </nav>
   )

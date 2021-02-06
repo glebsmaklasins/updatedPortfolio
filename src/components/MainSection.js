@@ -1,6 +1,7 @@
 import React from 'react'
 import IconFooter from "./IconFooter"
 import ScrollBtns from "./ScrollBtns"
+import "./MainSection.css"
 
 export default function MainSection() {
   return (

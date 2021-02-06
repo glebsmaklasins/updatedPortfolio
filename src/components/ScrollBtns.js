@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link } from "@reach/router";
+import "./ScrollBtns.css"
 
 export default function ScrollBtns() {
   return (

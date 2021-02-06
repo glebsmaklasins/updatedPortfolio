@@ -1,0 +1,9 @@
+.pictureBlock {
+  padding-left: 50px;
+}
+
+.mainPic {
+  height: 900px;
+  transform: translate(0, 30px);
+
+}
