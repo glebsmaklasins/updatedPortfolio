@@ -5,7 +5,7 @@ import Title from "./components/Title"
 import Navigation from "./components/Navigation"
 import MainSection from "./components/MainSection"
 import ScrollBtns from "./components/ScrollBtns"
-import Photo from "./components/Photo"
+
 import IconFooter from "./components/IconFooter"
 
 
@@ -15,13 +15,10 @@ function App() {
     <div className="App">
     <section className="main">
     <Navigation />
+    <Title path="/"/>
+  
     <MainSection/>
-    <Router>
-        <Title path="/"/>
-    </Router>
-    <Photo/>
-    <IconFooter/>
-    <ScrollBtns/>
+    
 
 
 

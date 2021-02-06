@@ -3,7 +3,7 @@ import {Link } from "@reach/router";
 
 export default function Navigation() {
   return (
-       <>
+       <nav className="nav">
         <Link to ="/aboutme">
           <p>about me</p>
         </Link>
@@ -16,6 +16,6 @@ export default function Navigation() {
         <Link to ="/contactme">
           <p>contact me</p>
         </Link>
-     </>
+     </nav>
   )
 }
