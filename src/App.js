@@ -20,7 +20,7 @@ function App() {
             <Photo/>
             <MainSection/>
             </section>
-  <div className="knopki">knopki</div>
+  <div className="knopki"><ScrollBtns/></div>
      </section>
     </div>
   );

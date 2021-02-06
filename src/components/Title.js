@@ -6,7 +6,7 @@ export default function Title() {
   return (
     <div className="signatureBlock">
         <Link to="/">
-          <img src="./imgProfile/asd.png" alt="signature" className="signature"/>
+          <img src="./imgProfile/1.png" alt="signature" className="signature"/>
         </Link>
            </div>
   )

@@ -1,9 +1,9 @@
 .nav {
   display: flex;
   flex-direction: column-reverse;
-  width: 100px;
+  width: 10%;
   text-align: center;
-  margin: 0 auto;
+
 }
 
 .nav a {

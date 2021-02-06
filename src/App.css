@@ -8,8 +8,9 @@
 .main {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
     background: url("img/bg_3.jpeg")  center;
-    width: 80%;
+    width: 73%;
     margin: 40px auto;
    
 }

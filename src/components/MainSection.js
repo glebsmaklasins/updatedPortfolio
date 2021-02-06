@@ -13,7 +13,7 @@ export default function MainSection() {
    </div>
    <footer>
      <IconFooter/>
-    <ScrollBtns/>
+    
    </footer>
    </section>
   )

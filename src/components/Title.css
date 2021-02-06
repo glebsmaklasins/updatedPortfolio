@@ -1,11 +1,19 @@
 .signatureBlock {
   display: flex;
-
   width: 100%;
+  justify-content: end;
+  
 }
 
 .signature {
-  height: 10px;
+  height: 50%;
   width: 100%;
-  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-top: 10%;
+
+}
+.signature a{
+  height: 50%;
+  width: 100%;
+
 }
