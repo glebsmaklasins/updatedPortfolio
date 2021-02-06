@@ -4,7 +4,10 @@
 }
 
 .mainPic {
-width: 100%;
-  transform: translate(0, 30px);
-
+  display: block;
+  width: 90%;
+transform: translate(0,5%);
+}
+@media only screen and (max-width: 1200px) {
+  
 }
